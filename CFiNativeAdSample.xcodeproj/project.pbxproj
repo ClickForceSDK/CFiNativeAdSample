@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221AE519206E056E0055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE518206E056E0055DD1A /* iMFAD.framework */; };
 		22836A1E201741A3001B4265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836A1D201741A3001B4265 /* AppDelegate.m */; };
 		22836A21201741A3001B4265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836A20201741A3001B4265 /* ViewController.m */; };
 		22836A24201741A3001B4265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22836A22201741A3001B4265 /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		22836A2F201741A3001B4265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836A2E201741A3001B4265 /* main.m */; };
 		22836A39201741A3001B4265 /* CFiNativeAdSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836A38201741A3001B4265 /* CFiNativeAdSampleTests.m */; };
 		22836A44201741A3001B4265 /* CFiNativeAdSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22836A43201741A3001B4265 /* CFiNativeAdSampleUITests.m */; };
+		22B8202520B6BCB70089D65C /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B8202420B6BCB70089D65C /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		221AE518206E056E0055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		22836A19201741A3001B4265 /* CFiNativeAdSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiNativeAdSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22836A1C201741A3001B4265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22836A1D201741A3001B4265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		22836A3F201741A3001B4265 /* CFiNativeAdSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiNativeAdSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22836A43201741A3001B4265 /* CFiNativeAdSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiNativeAdSampleUITests.m; sourceTree = "<group>"; };
 		22836A45201741A3001B4265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B8202420B6BCB70089D65C /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221AE519206E056E0055DD1A /* iMFAD.framework in Frameworks */,
+				22B8202520B6BCB70089D65C /* iMFAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		22836A10201741A3001B4265 = {
 			isa = PBXGroup;
 			children = (
-				221AE518206E056E0055DD1A /* iMFAD.framework */,
+				22B8202420B6BCB70089D65C /* iMFAD.framework */,
 				22836A1B201741A3001B4265 /* CFiNativeAdSample */,
 				22836A37201741A3001B4265 /* CFiNativeAdSampleTests */,
 				22836A42201741A3001B4265 /* CFiNativeAdSampleUITests */,

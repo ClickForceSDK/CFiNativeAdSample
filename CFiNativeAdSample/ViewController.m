@@ -44,7 +44,7 @@
     NSLog(@"點擊廣告完成");
 }
 
-- (void)requestAdFail
+- (void)onMFNativeAdRequestFail
 {
     NSLog(@"原生廣告載入失敗");
 }
