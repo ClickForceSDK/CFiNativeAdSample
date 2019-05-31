@@ -19,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *advertiser;
 @property (strong, nonatomic) IBOutlet UIImageView *adCoverImg;
 @property (strong, nonatomic) IBOutlet UIButton *adButtonTitle;
+@property (strong, nonatomic) IBOutlet UIView *adContainer;
 
 @end
 

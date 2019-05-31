@@ -20,7 +20,8 @@
     
     cfNativeAd = [[MFNativeAd alloc]init];
     cfNativeAd.delegate = self;
-    cfNativeAd.bannerId = @"5229";
+    cfNativeAd.bannerId = @"8384";
+    [cfNativeAd debugInfo:YES];
     [cfNativeAd requestAd];
 }
 
@@ -36,7 +37,8 @@
         self.adCoverImg.image = image;
     }];
     
-    [cfNativeAd registerViewForInteraction:self.adButtonTitle withViewController:self];
+    
+    [cfNativeAd registerElementsView:self.adContainer clickView:@[self.adTitle,self.adBody,self.advertiser,self.adButtonTitle,self.adCoverImg] controllervw:self];
 }
 
 - (void)onMFNativeAdClick:(MFNativeAd *)nativeAd
